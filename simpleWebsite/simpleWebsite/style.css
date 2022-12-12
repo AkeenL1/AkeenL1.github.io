@@ -1,0 +1,32 @@
+body {
+    background-color: #6B8E23;
+}
+
+#titleBar{
+    background-color: #D4AF37;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+}
+
+#textBoxes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.textBox{
+    width:100%;
+    font-size: medium;
+    border: #CD7F32;
+    border-style: solid;
+    border-width: medium;
+    margin: 2em;
+    text-align: center;
+}
+
+.textBox > h2{
+    color:#B87333;
+    background-color: #D4AF37;
+    margin: 0;
+}
